@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "company": "Sponsorcloud",
+    "position": "Senior Software Engineer",
+    "location": "Remote",
+    "startDate": "2024-03",
+    "endDate": null,
+    "current": true,
+    "description": "Leading architectural evolution and system enhancements for complex financial distribution engines, focusing on scalability, performance, and modular design.",
+    "achievements": [
+      "Architected and led the development of Waterfall V2, a significant enhancement to the core distribution engine, enabling complex investment structures and multi-tier payout logic",
+      "Optimized underlying calculation algorithms to handle high-volume data processing with increased precision and reduced latency",
+      "Integrated advanced configuration options empowering users to define custom financial hurdles and catch-up clauses without manual code intervention"
+    ],
+    "technologies": ["JavaScript", "TypeScript", "Node.js", "Financial Logic Engines", "Complex Distribution Models", "Full Stack Architecture", "Scalable API Design"]
+  },
+  {
+    "id": "2",
+    "company": "FirstPrinciple",
+    "position": "Full Stack Developer",
+    "location": "Remote",
+    "startDate": "2022-07",
+    "endDate": "2024-03",
+    "current": false,
+    "description": "Engineered complex financial logic systems for investment management platforms, focusing on high-precision calculations and architectural design.",
+    "achievements": [
+      "Engineered a highly complex Waterfall Distribution Model for an online investment management platform, ensuring high-precision financial calculations",
+      "Actively participated in architectural design sessions, taking ownership of end-to-end implementation for core product modules",
+      "Partnered with QA teams and Scrum Masters to deliver high-quality software within an Agile-Waterfall hybrid environment"
+    ],
+    "technologies": ["JavaScript", "TypeScript", "Node.js", "React", "Waterfall Distribution Models", "Financial Calculations", "Agile Methodologies"]
+  },
+  {
+    "id": "3",
+    "company": "Ticketmaster Entertainment, Inc.",
+    "position": "Senior Engineer I",
+    "location": "Remote",
+    "startDate": "2021-10",
+    "endDate": "2023-01",
+    "current": false,
+    "description": "Enhanced analytics platforms using the MERN Stack, focusing on feature development and performance optimization for high-traffic data visualization systems.",
+    "achievements": [
+      "Enhanced the TM1 LiveAnalytics platform using the MERN Stack, focusing on feature development and performance optimization for high-traffic data visualization",
+      "Optimized workflows in an Agile environment, coordinating between onshore and offshore teams to maintain high code quality through rigorous Git version control",
+      "Acted as a technical consultant for the management team to navigate and resolve technical constraints within complex business systems"
+    ],
+    "technologies": ["MongoDB", "Express", "React", "Node.js", "MERN Stack", "Git", "Agile", "Data Visualization", "Performance Optimization"]
+  },
+  {
+    "id": "4",
+    "company": "Edgeverve Systems (Infosys)",
+    "position": "Technology Analyst",
+    "location": "Onsite",
+    "startDate": "2017-11",
+    "endDate": "2021-10",
+    "current": false,
+    "description": "Developed enterprise-grade banking applications via the Finacle Channels framework, delivering robust mobile and web solutions for global banking clients.",
+    "achievements": [
+      "Developed enterprise-grade banking applications via the Finacle Channels framework, delivering robust mobile and web solutions for global banking clients",
+      "Engineered DDA-compliant, responsive web applications, ensuring a seamless and accessible user experience across all devices and accessibility needs",
+      "Built and optimized high-performance REST APIs using Node.js and Express, integrating diverse third-party libraries to extend application functionality"
+    ],
+    "technologies": ["Finacle Channels", "Node.js", "Express", "REST APIs", "Banking Applications", "DDA Compliance", "Responsive Design", "Third-party Integration"]
+  }
+]
+

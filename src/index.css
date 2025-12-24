@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-dark-border;
+  }
+
+  body {
+    @apply bg-dark-bg text-dark-text antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply mb-16;
+  }
+
+  .card {
+    @apply bg-dark-card border-0 rounded-2xl p-6 transition-all duration-300;
+  }
+
+  .card:hover {
+    @apply shadow-lg;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-600 text-white font-medium px-6 py-3 rounded-lg transition-all duration-500 inline-flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply bg-dark-card hover:bg-dark-border text-dark-text font-medium px-6 py-3 rounded-lg transition-all duration-500 inline-flex items-center gap-2;
+  }
+
+  .text-highlight {
+    @apply text-primary;
+  }
+
+  .section-title {
+    @apply text-[58px] font-medium leading-[1.1em] mb-4;
+    text-shadow: 0.03em 0 0 currentColor;
+    font-weight: 500;
+  }
+
+  .section-title-responsive {
+    @apply text-[38px];
+  }
+
+  .section-subtitle {
+    @apply text-lg text-dark-muted mb-12;
+  }
+
+  @media screen and (max-width: 768px) {
+    .section-title {
+      @apply text-[38px];
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2a2a;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(14, 165, 233, 0.3);
+  color: #fff;
+}

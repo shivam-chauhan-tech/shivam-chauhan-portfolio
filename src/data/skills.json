@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "skills": [
+        { "name": "React", "level": 90 },
+        { "name": "Vue", "level": 85 },
+        { "name": "JavaScript", "level": 90 },
+        { "name": "TypeScript", "level": 85 },
+        { "name": "HTML/CSS", "level": 95 }
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        { "name": "Node.js", "level": 85 },
+        { "name": "Express", "level": 80 },
+        { "name": "REST APIs", "level": 85 },
+        { "name": "GraphQL", "level": 70 },
+        { "name": "Serverless", "level": 75 }
+      ]
+    },
+    {
+      "name": "Database & Tools",
+      "skills": [
+        { "name": "MongoDB", "level": 80 },
+        { "name": "MySQL", "level": 75 },
+        { "name": "Git", "level": 90 },
+        { "name": "Docker", "level": 70 },
+        { "name": "AWS", "level": 65 }
+      ]
+    }
+  ]
+}
+

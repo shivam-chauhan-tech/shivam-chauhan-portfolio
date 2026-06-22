@@ -1,7 +1,7 @@
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, type LucideIcon } from 'lucide-react';
 import socials from '@/data/socials.json';
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, LucideIcon> = {
   github: Github,
   linkedin: Linkedin,
   twitter: Twitter,

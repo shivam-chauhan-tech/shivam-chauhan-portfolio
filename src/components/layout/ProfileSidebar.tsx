@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, type LucideIcon } from 'lucide-react';
 import profileData from '@/data/profile.json';
 import socialsData from '@/data/socials.json';
 import type { Profile, Social } from '@/types';
@@ -6,7 +6,7 @@ import type { Profile, Social } from '@/types';
 const profile = profileData as Profile;
 const socials = socialsData as Social[];
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, LucideIcon> = {
   github: Github,
   linkedin: Linkedin,
   twitter: Twitter,
@@ -76,7 +76,7 @@ export default function ProfileSidebar() {
         href="#contact"
         className="block w-full bg-primary hover:bg-primary-600 text-white rounded-lg py-2 px-[50px] font-medium text-[15px] transition-all duration-500 text-center mt-10"
       >
-        Let's Talk
+        Let&apos;s Talk
       </a>
     </div>
   );

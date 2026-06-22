@@ -85,7 +85,7 @@ export default function Hero() {
             href="#contact"
             className="bg-primary hover:bg-primary-600 text-white py-2 px-[50px] rounded-lg font-medium text-[16px] transition-all duration-500"
           >
-            Let's Talk
+            Let&apos;s Talk
           </a>
           <a
             href="#projects"

@@ -27,17 +27,20 @@ A modern, responsive personal portfolio website showcasing my projects, skills, 
 ## 🛠️ Tech Stack
 
 ### Core
+
 - **React 18** - UI library
 - **TypeScript** - Type safety
 - **Vite** - Build tool
 - **Tailwind CSS** - Styling
 
 ### Libraries
+
 - **Framer Motion** - Animations
 - **Lucide React** - Icons
 - **EmailJS** - Contact form email service
 
 ### Code Quality
+
 - **ESLint** - Linting
 - **Prettier** - Code formatting
 - **TypeScript Strict Mode** - Enhanced type checking
@@ -75,18 +78,20 @@ src/
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or pnpm
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/chauhanshivam/shivam-chauhan-portfolio.git
    cd shivam-chauhan-portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -94,12 +99,13 @@ src/
    ```
 
 3. **Configure email service (optional)**
-   
+
    For the contact form to work, set up EmailJS:
+
    ```bash
    # Copy environment variables template
    cp .env.example .env
-   
+
    # Add your EmailJS credentials to .env
    VITE_EMAILJS_SERVICE_ID=your_service_id
    VITE_EMAILJS_TEMPLATE_ID=your_template_id
@@ -107,6 +113,7 @@ src/
    ```
 
 4. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -135,6 +142,7 @@ npm run preview
 Edit the JSON files in `src/data/`:
 
 **`profile.json`** - Your personal info
+
 ```json
 {
   "name": "Your Name",
@@ -146,6 +154,7 @@ Edit the JSON files in `src/data/`:
 ```
 
 **`projects.json`** - Your projects
+
 ```json
 [
   {
@@ -188,6 +197,7 @@ For the contact form to send real emails:
 ### 4. Update Meta Tags
 
 Edit `index.html` for SEO optimization:
+
 - Title
 - Description
 - Keywords
@@ -207,16 +217,16 @@ This portfolio follows modern web development best practices:
 
 ## 📜 Available Scripts
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview production build |
-| `npm run lint` | Run ESLint |
-| `npm run lint:fix` | Fix ESLint errors |
-| `npm run format` | Format code with Prettier |
-| `npm run format:check` | Check code formatting |
-| `npm run type-check` | Run TypeScript type checking |
+| Script                 | Description                  |
+| ---------------------- | ---------------------------- |
+| `npm run dev`          | Start development server     |
+| `npm run build`        | Build for production         |
+| `npm run preview`      | Preview production build     |
+| `npm run lint`         | Run ESLint                   |
+| `npm run lint:fix`     | Fix ESLint errors            |
+| `npm run format`       | Format code with Prettier    |
+| `npm run format:check` | Check code formatting        |
+| `npm run type-check`   | Run TypeScript type checking |
 
 ## 🚢 Deployment
 
@@ -254,7 +264,7 @@ This project is [MIT](./LICENSE) licensed.
 
 **Shivam Singh Chauhan**
 
-- Email: [shivamchauhan081994@gmail.com](mailto:shivamchauhan081994@gmail.com)
+- Email: [contact@shivam-chauhan.com](mailto:contact@shivam-chauhan.com)
 - LinkedIn: [@shivam-chauhan-713828125](https://www.linkedin.com/in/shivam-chauhan-713828125/)
 - GitHub: [@chauhanshivam](https://github.com/chauhanshivam)
 
@@ -263,4 +273,3 @@ This project is [MIT](./LICENSE) licensed.
 <div align="center">
   Made with ❤️ using React & TypeScript
 </div>
-

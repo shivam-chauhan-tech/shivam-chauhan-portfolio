@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypingText } from '@/components/ui/TypingText';
-import { ANIMATION_VARIANTS, SECTION_IDS } from '@/config/constants';
+import { SECTION_IDS } from '@/config/constants';
 import profileData from '@/data/profile.json';
 import statsData from '@/data/stats.json';
 import type { Profile } from '@/types';

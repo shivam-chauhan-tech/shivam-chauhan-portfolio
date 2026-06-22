@@ -1,9 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Send } from 'lucide-react';
-import { Section } from '@/components/ui/Section';
-import { Card } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
 import { ANIMATION_VARIANTS, SECTION_IDS } from '@/config/constants';
 import { sendEmail } from '@/services/emailService';
 import profileData from '@/data/profile.json';

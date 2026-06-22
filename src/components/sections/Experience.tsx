@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Briefcase, Calendar, MapPin } from 'lucide-react';
-import { Section } from '@/components/ui/Section';
 import { ANIMATION_VARIANTS, SECTION_IDS } from '@/config/constants';
 import { formatDate, calculateDuration } from '@/utils/formatDate';
 import experienceData from '@/data/experience.json';

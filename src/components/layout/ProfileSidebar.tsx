@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/Button';
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 import profileData from '@/data/profile.json';
 import socialsData from '@/data/socials.json';

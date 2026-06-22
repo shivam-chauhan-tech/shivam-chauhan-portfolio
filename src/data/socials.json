@@ -1,7 +1,7 @@
 [
   {
     "name": "GitHub",
-    "url": "https://github.com/yourusername",
+    "url": "https://github.com/shivam-chauhan-tech",
     "icon": "github"
   },
   {
@@ -10,14 +10,8 @@
     "icon": "linkedin"
   },
   {
-    "name": "Twitter",
-    "url": "https://twitter.com/yourusername",
-    "icon": "twitter"
-  },
-  {
     "name": "Email",
     "url": "mailto:shivamchauhan081994@gmail.com",
     "icon": "mail"
   }
 ]
-

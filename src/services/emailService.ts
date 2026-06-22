@@ -59,11 +59,11 @@ export const sendEmail = async (formData: {
             message: 'Failed to send email. Please try again.',
          };
       }
-   } catch (error: any) {
+   } catch (error) {
       console.error('Email send error:', error);
       return {
          success: false,
-         message: error?.text || 'Failed to send email. Please try again later.',
+         message: 'Failed to send email. Please try again later.',
       };
    }
 };

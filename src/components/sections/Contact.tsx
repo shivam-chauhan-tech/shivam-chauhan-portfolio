@@ -3,6 +3,11 @@ import { motion } from 'framer-motion';
 import { Mail, Send } from 'lucide-react';
 import { ANIMATION_VARIANTS, SECTION_IDS } from '@/config/constants';
 import { sendEmail } from '@/services/emailService';
+import {
+  executeRecaptcha,
+  isRecaptchaEnabled,
+  verifyRecaptchaToken,
+} from '@/services/recaptchaService';
 import profileData from '@/data/profile.json';
 import type { Profile, ContactFormData } from '@/types';
 
@@ -38,6 +43,23 @@ export default function Contact() {
     setSubmitStatus({ type: 'idle', message: '' });
 
     try {
+      if (isRecaptchaEnabled()) {
+        const token = await executeRecaptcha('contact');
+        if (!token) {
+          setSubmitStatus({
+            type: 'error',
+            message: 'Security verification failed. Please refresh and try again.',
+          });
+          return;
+        }
+
+        const verification = await verifyRecaptchaToken(token);
+        if (!verification.success) {
+          setSubmitStatus({ type: 'error', message: verification.message });
+          return;
+        }
+      }
+
       const result = await sendEmail(formData);
       
       if (result.success) {
@@ -158,6 +180,30 @@ export default function Contact() {
                   placeholder="Your message..."
                 />
               </div>
+
+              {isRecaptchaEnabled() && (
+                <p className="text-xs text-dark-muted text-center">
+                  This site is protected by reCAPTCHA and the Google{' '}
+                  <a
+                    href="https://policies.google.com/privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-primary-600"
+                  >
+                    Privacy Policy
+                  </a>{' '}
+                  and{' '}
+                  <a
+                    href="https://policies.google.com/terms"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-primary-600"
+                  >
+                    Terms of Service
+                  </a>{' '}
+                  apply.
+                </p>
+              )}
 
               {/* Submit Button */}
               <button

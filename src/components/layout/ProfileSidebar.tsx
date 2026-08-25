@@ -23,11 +23,17 @@ export default function ProfileSidebar() {
     <div className="bg-dark-card rounded-2xl p-6 md:p-6">
       {/* Profile Photo */}
       <div className="mb-2">
-        <div className="w-full rounded-2xl overflow-hidden max-h-[550px]">
-          <img 
-            src="/photos/profile.png" 
+        {/* aspect ratio matches the source image so the box reserves its final
+            height before the photo loads, preventing layout shift */}
+        <div className="w-full rounded-2xl overflow-hidden aspect-[1100/1520] max-h-[550px]">
+          <img
+            src="/photos/profile.jpg"
             alt={profile.name}
-            className="w-full rounded-2xl object-cover object-top"
+            width={1100}
+            height={1520}
+            fetchPriority="high"
+            decoding="async"
+            className="w-full h-full rounded-2xl object-cover object-top"
           />
         </div>
       </div>

@@ -1,12 +1,12 @@
 {
   "name": "Shivam Singh Chauhan",
-  "title": "Full Stack Developer",
+  "title": "Senior Software Engineer",
   "headline": "Engineering Your Ideas into Reality",
-  "tagline": "Building modern web applications with passion and precision",
-  "description1": "Transform complex requirements into elegant, functional software products. Passionate about writing efficient code that drives value and enhances user engagement.",
+  "tagline": "Architecting fintech and enterprise banking systems at scale",
+  "description1": "Senior Software Engineer with 8+ years architecting multi-tiered financial distribution engines, high-scale analytics platforms, and enterprise banking solutions. I turn complex domain requirements into modular, performant systems.",
   "description2": "",
-  "bio": "I'm a passionate Full Stack Developer with expertise in building scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions. When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects.",
-  "location": "India",
+  "bio": "I'm a Senior Software Engineer specializing in fintech and enterprise banking systems. My work spans multi-tiered equity payout and capital gains distribution engines, real-time analytics platforms processing customer propensity metrics, and core banking portals for tier-1 international clients. I focus on system architecture, GraphQL and API performance, and building deployment pipelines that teams can rely on.",
+  "location": "Gurugram, Haryana",
   "email": "contact@shivam-chauhan.com",
   "availability": "Open to Work",
   "resumeUrl": "/resume.pdf"

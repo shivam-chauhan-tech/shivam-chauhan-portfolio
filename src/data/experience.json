@@ -1,67 +1,82 @@
 [
   {
     "id": "1",
-    "company": "Sponsorcloud",
+    "company": "SponsorCloud",
     "position": "Senior Software Engineer",
     "location": "Remote",
-    "startDate": "2024-03",
+    "startDate": "2024-04",
     "endDate": null,
     "current": true,
-    "description": "Leading architectural evolution and system enhancements for complex financial distribution engines, focusing on scalability, performance, and modular design.",
+    "description": "Architecting multi-tiered financial distribution systems for an online investment management platform, focusing on scalability, modular decoupling, and deployment reliability.",
     "achievements": [
-      "Architected and led the development of Waterfall V2, a significant enhancement to the core distribution engine, enabling complex investment structures and multi-tier payout logic",
-      "Optimized underlying calculation algorithms to handle high-volume data processing with increased precision and reduced latency",
-      "Integrated advanced configuration options empowering users to define custom financial hurdles and catch-up clauses without manual code intervention"
+      "Architected and implemented an end-to-end multi-tiered equity payout and capital gains distribution engine for an online investment management platform, processing complex syndicate financial waterfalls",
+      "Led system design discussions and frontend/backend modular decoupling using Node.js, GraphQL, and React, streamlining financial data workflows across multiple investor portals",
+      "Engineered optimized GraphQL schema design and query loaders, significantly reducing API latency and client-side load times during heavy concurrent user sessions",
+      "Built automated CI/CD deployment pipelines on AWS using Terraform and GitLab CI/CD, boosting deployment reliability and uptime"
     ],
-    "technologies": ["JavaScript", "TypeScript", "Node.js", "Financial Logic Engines", "Complex Distribution Models", "Full Stack Architecture", "Scalable API Design"]
+    "technologies": [
+      "Node.js",
+      "GraphQL",
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "AWS",
+      "Terraform",
+      "GitLab CI/CD",
+      "System Architecture"
+    ]
   },
   {
     "id": "2",
-    "company": "FirstPrinciple",
-    "position": "Full Stack Developer",
+    "company": "Ticketmaster Entertainment, Inc.",
+    "position": "Senior Engineer 1",
     "location": "Remote",
-    "startDate": "2022-07",
-    "endDate": "2024-03",
+    "startDate": "2021-10",
+    "endDate": "2024-04",
     "current": false,
-    "description": "Engineered complex financial logic systems for investment management platforms, focusing on high-precision calculations and architectural design.",
+    "description": "Drove feature development and architectural modernization for the TM1 LiveAnalytics platform, processing real-time demographic and customer propensity metrics at scale.",
     "achievements": [
-      "Engineered a highly complex Waterfall Distribution Model for an online investment management platform, ensuring high-precision financial calculations",
-      "Actively participated in architectural design sessions, taking ownership of end-to-end implementation for core product modules",
-      "Partnered with QA teams and Scrum Masters to deliver high-quality software within an Agile-Waterfall hybrid environment"
+      "Spearheaded feature development and architectural updates for the TM1 LiveAnalytics platform using the MERN stack, processing real-time demographic and customer propensity metrics",
+      "Collaborated with cross-functional onshore and offshore teams in a high-velocity Agile setting, establishing strict Git workflows and automated testing protocols",
+      "Partnered with engineering management to evaluate system trade-offs, address technical constraints, and modernize core analytics services for enterprise venue clients"
     ],
-    "technologies": ["JavaScript", "TypeScript", "Node.js", "React", "Waterfall Distribution Models", "Financial Calculations", "Agile Methodologies"]
+    "technologies": [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "MERN Stack",
+      "AWS",
+      "Terraform",
+      "Agile/Scrum",
+      "Git"
+    ]
   },
   {
     "id": "3",
-    "company": "Ticketmaster Entertainment, Inc.",
-    "position": "Senior Engineer I",
-    "location": "Remote",
-    "startDate": "2021-10",
-    "endDate": "2023-01",
-    "current": false,
-    "description": "Enhanced analytics platforms using the MERN Stack, focusing on feature development and performance optimization for high-traffic data visualization systems.",
-    "achievements": [
-      "Enhanced the TM1 LiveAnalytics platform using the MERN Stack, focusing on feature development and performance optimization for high-traffic data visualization",
-      "Optimized workflows in an Agile environment, coordinating between onshore and offshore teams to maintain high code quality through rigorous Git version control",
-      "Acted as a technical consultant for the management team to navigate and resolve technical constraints within complex business systems"
-    ],
-    "technologies": ["MongoDB", "Express", "React", "Node.js", "MERN Stack", "Git", "Agile", "Data Visualization", "Performance Optimization"]
-  },
-  {
-    "id": "4",
-    "company": "Edgeverve Systems (Infosys)",
+    "company": "Edgeverve Systems Limited (Infosys)",
     "position": "Technology Analyst",
     "location": "Onsite",
     "startDate": "2017-11",
     "endDate": "2021-10",
     "current": false,
-    "description": "Developed enterprise-grade banking applications via the Finacle Channels framework, delivering robust mobile and web solutions for global banking clients.",
+    "description": "Served as Finacle Channels full-stack technical expert, delivering core web and mobile banking solutions for tier-1 international banking clients.",
     "achievements": [
-      "Developed enterprise-grade banking applications via the Finacle Channels framework, delivering robust mobile and web solutions for global banking clients",
-      "Engineered DDA-compliant, responsive web applications, ensuring a seamless and accessible user experience across all devices and accessibility needs",
-      "Built and optimized high-performance REST APIs using Node.js and Express, integrating diverse third-party libraries to extend application functionality"
+      "Served as Finacle Channels Full-Stack Technical Expert, delivering core web and mobile banking solutions for tier-1 international banking clients (including Sharjah Islamic Bank)",
+      "Architected modular UI components using Polymer.js and React.js, ensuring cross-browser compatibility and full DDA accessibility compliance for high-volume banking portals",
+      "Developed scalable RESTful APIs with Node.js and Express.js, integrating security protocols and enterprise database instances (MongoDB/MySQL)",
+      "Led technical proof-of-concepts (POCs) for strategic banking integrations, including Emirates Digital Wallet, Digital Signature infrastructure (UAE Pass), and automated e-KYC workflows"
     ],
-    "technologies": ["Finacle Channels", "Node.js", "Express", "REST APIs", "Banking Applications", "DDA Compliance", "Responsive Design", "Third-party Integration"]
+    "technologies": [
+      "Polymer.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MySQL",
+      "RESTful APIs",
+      "Finacle Channels",
+      "DDA Compliance"
+    ]
   }
 ]
-

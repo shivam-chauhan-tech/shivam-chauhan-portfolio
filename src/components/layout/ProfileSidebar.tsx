@@ -5,6 +5,7 @@ import type { Profile, Social } from '@/types';
 
 const profile = profileData as Profile;
 const socials = socialsData as Social[];
+const linkedIn = socials.find((social) => social.icon === 'linkedin');
 
 const iconMap: Record<string, LucideIcon> = {
   github: Github,
@@ -39,14 +40,16 @@ export default function ProfileSidebar() {
         <p className="text-[18px] text-dark-muted mb-0 font-normal tracking-normal">
           {profile.title}
         </p>
-        <a
-          href="https://www.linkedin.com/in/shivam-chauhan-713828125/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-[18px] text-dark-muted hover:text-primary transition-colors inline-block font-normal tracking-normal"
-        >
-          @LinkedIn
-        </a>
+        {linkedIn && (
+          <a
+            href={linkedIn.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[18px] text-dark-muted hover:text-primary transition-colors inline-block font-normal tracking-normal"
+          >
+            @LinkedIn
+          </a>
+        )}
         <p className="text-base font-bold text-primary mt-0">
           (Open to Work)
         </p>

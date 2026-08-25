@@ -1,35 +1,57 @@
 {
   "categories": [
     {
-      "name": "Frontend",
+      "name": "Languages",
       "skills": [
-        { "name": "React", "level": 90 },
-        { "name": "Vue", "level": 85 },
-        { "name": "JavaScript", "level": 90 },
-        { "name": "TypeScript", "level": 85 },
-        { "name": "HTML/CSS", "level": 95 }
+        { "name": "JavaScript (ES6+)", "level": 95 },
+        { "name": "TypeScript", "level": 90 },
+        { "name": "Python", "level": 75 },
+        { "name": "HTML5", "level": 95 },
+        { "name": "CSS3", "level": 90 }
       ]
     },
     {
-      "name": "Backend",
+      "name": "Backend & Architecture",
       "skills": [
-        { "name": "Node.js", "level": 85 },
-        { "name": "Express", "level": 80 },
-        { "name": "REST APIs", "level": 85 },
-        { "name": "GraphQL", "level": 70 },
-        { "name": "Serverless", "level": 75 }
+        { "name": "Node.js", "level": 92 },
+        { "name": "Express.js", "level": 90 },
+        { "name": "GraphQL", "level": 88 },
+        { "name": "RESTful APIs", "level": 92 },
+        { "name": "Microservices", "level": 82 },
+        { "name": "System Architecture", "level": 85 }
       ]
     },
     {
-      "name": "Database & Tools",
+      "name": "Frontend Frameworks",
       "skills": [
-        { "name": "MongoDB", "level": 80 },
-        { "name": "MySQL", "level": 75 },
-        { "name": "Git", "level": 90 },
-        { "name": "Docker", "level": 70 },
-        { "name": "AWS", "level": 65 }
+        { "name": "React.js", "level": 92 },
+        { "name": "Next.js", "level": 80 },
+        { "name": "Redux", "level": 85 },
+        { "name": "Polymer.js", "level": 85 },
+        { "name": "Angular.js", "level": 70 },
+        { "name": "Responsive Web Design", "level": 90 }
+      ]
+    },
+    {
+      "name": "Databases & Cloud",
+      "skills": [
+        { "name": "MongoDB", "level": 88 },
+        { "name": "MySQL", "level": 80 },
+        { "name": "AWS", "level": 85 },
+        { "name": "Terraform", "level": 80 },
+        { "name": "Docker", "level": 78 },
+        { "name": "Kubernetes", "level": 70 },
+        { "name": "GitLab CI/CD", "level": 85 }
+      ]
+    },
+    {
+      "name": "Methodologies & Tools",
+      "skills": [
+        { "name": "Agile/Scrum", "level": 90 },
+        { "name": "Git Version Control", "level": 92 },
+        { "name": "Technical Leadership", "level": 85 },
+        { "name": "Performance Optimization", "level": 88 }
       ]
     }
   ]
 }
-

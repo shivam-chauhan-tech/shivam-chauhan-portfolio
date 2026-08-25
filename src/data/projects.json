@@ -5,39 +5,38 @@
     "description": "Strategic audience behavior and event lifecycle management tool.",
     "longDescription": "A specialized portal that transforms raw event data into actionable marketing strategies, helping clients identify and target high-propensity audiences. Focused on UI/UX optimization and frontend performance to ensure intuitive data discovery for non-technical stakeholders.",
     "image": "/assets/Insights.jpg",
-    "tags": ["React", "Vue", "REST APIs", "Agile Methodology", "UI/UX", "Performance Optimization"],
+    "tags": ["React", "Node.js", "RESTful APIs", "Agile/Scrum", "UI/UX", "Performance Optimization"],
     "live": "https://business.ticketmaster.com/insights/",
     "featured": true
   },
   {
     "id": "2",
-    "title": "Waterfall Distribution Engine",
+    "title": "SyndicationPro Waterfall Engine",
     "description": "High-precision financial logic for real-time investment distributions.",
-    "longDescription": "An automated engine that handles complex multi-tier profit sharing and capital distributions for real estate and private equity funds. Developed Waterfall V2, enhancing the system's ability to process multi-class investor hurdles and catch-up clauses. Focused on precision, auditability, and algorithm optimization.",
+    "longDescription": "Research-driven tier calculation modules for capital distribution within investment syndicates. Handles multi-tiered equity payouts and capital gains distributions, processing multi-class investor hurdles and catch-up clauses. Built on an optimized GraphQL layer with automated CI/CD delivery on AWS.",
     "image": "/assets/waterfall-distribution.png",
-    "tags": ["Node.js", "React", "GraphQL", "MongoDB", "Syncfusion", "Lambda functions", "SQS", "AWS", "Fargate", "Scalable Calculation Engines"],
+    "tags": ["React", "Node.js", "GraphQL", "MongoDB", "GitLab CI/CD", "AWS", "Docker", "Terraform"],
     "live": "https://www.sponsorcloud.io/platform/waterfall-calculation-software",
     "featured": true
   },
   {
     "id": "3",
-    "title": "LiveAnalytics Platform (Ticketmaster)",
+    "title": "TM1 LiveAnalytics",
     "description": "Data-driven marketing and measurement for global live events.",
-    "longDescription": "A high-traffic analytics platform that provides event organizers with real-time insights into sales, inventory, and fan engagement metrics. Engineered new features for the MERN stack-based platform, optimizing data visualization components to handle massive concurrent traffic spikes during major event on-sales.",
+    "longDescription": "High-scale statistical aggregation features analyzing user demographics, ticket sales trends, and propensity scores. Engineered new features for the MERN stack-based platform, optimizing data visualization components to handle massive concurrent traffic spikes during major event on-sales.",
     "image": "/assets/liveA.png",
-    "tags": ["MongoDB", "Express", "React", "Node.js", "Git", "MERN Stack", "Data Visualization", "Performance Optimization"],
+    "tags": ["React", "Node.js", "MongoDB", "Express.js", "MERN Stack", "Terraform", "AWS", "Data Visualization"],
     "live": "https://business.ticketmaster.com/solutions/marketing-and-measurement/",
     "featured": true
   },
   {
     "id": "4",
-    "title": "Digital Engagement Hub (Finacle - Speedboat)",
+    "title": "Islamic Bank Digital Ecosystem",
     "description": "Omnichannel banking platform powering seamless customer journeys.",
-    "longDescription": "An enterprise-class system designed to help banks onboard, service, and engage customers across mobile, web, and chat channels. Built responsive, DDA-compliant web interfaces and developed RESTful APIs to integrate the hub with core banking and payment systems.",
+    "longDescription": "Component-driven mobile and web interfaces plus API gateways for e-banking portals serving tier-1 international clients including Sharjah Islamic Bank. Delivered DDA-compliant responsive interfaces and led proof-of-concepts for Emirates Digital Wallet, UAE Pass digital signature infrastructure, and automated e-KYC workflows.",
     "image": "/assets/finacle.png",
-    "tags": ["Node.js", "Express", "Responsive Web Design", "Finacle Channels Framework", "Cordova", "Hybrid App", "REST APIs", "DDA Compliance"],
+    "tags": ["React", "Polymer.js", "Node.js", "Express.js", "MongoDB", "MySQL", "Finacle Channels", "DDA Compliance"],
     "live": "https://www.finacle.com/solution/digital-engagement-hub/",
     "featured": true
   }
 ]
-

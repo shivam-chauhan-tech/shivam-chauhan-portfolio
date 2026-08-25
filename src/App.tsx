@@ -45,7 +45,7 @@ function App() {
         <p>
           Developed by{' '}
           <a
-            href="https://github.com/yourusername/shivam-chauhan-portfolio"
+            href="https://github.com/chauhanshivam/shivam-chauhan-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:text-primary-600 transition-colors"
